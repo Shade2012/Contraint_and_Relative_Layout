@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Contraint and Relative Layout</string>
+    <string name="example_bold"><b>Jenis cuci baju</b></string>
 </resources>
