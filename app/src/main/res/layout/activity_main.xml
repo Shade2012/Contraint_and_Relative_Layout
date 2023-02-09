@@ -53,6 +53,15 @@
         app:layout_constraintStart_toStartOf="@id/imageView"
         app:layout_constraintTop_toBottomOf="@id/textAtas"
         app:layout_constraintVertical_bias="0.276" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pesan Lagi"
+        android:id="@+id/kembali"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/pesan"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="@id/imageView"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -63,5 +72,6 @@
         app:layout_constraintTop_toBottomOf="@id/textBorderGede"
         app:layout_constraintStart_toStartOf="@id/imageView"
         app:layout_constraintEnd_toEndOf="@id/imageView"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
