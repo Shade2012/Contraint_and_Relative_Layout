@@ -28,24 +28,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:id="@+id/judul"
         android:text="@string/example_bold"
         android:paddingTop="10dp"
         android:textSize="35dp" />
 
-    
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_below="@id/judul"
+        android:id="@+id/baju"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Cuci Baju"
         android:padding="15dp"
-        />
+        android:text="Cuci Baju" />
+
     <Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="140dp"
+      android:layout_below="@id/baju"
+        android:id="@+id/batik"
       android:layout_marginLeft="20dp"
       android:layout_marginRight="20dp"
       android:text="Cuci Batik"
@@ -54,7 +57,8 @@
       /><Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="210dp"
+      android:layout_below="@id/batik"
+      android:id="@+id/selimut"
       android:layout_marginLeft="20dp"
       android:layout_marginRight="20dp"
       android:text="Cuci Selimut"
@@ -62,7 +66,8 @@
       /><Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="280dp"
+      android:id="@+id/seperai"
+      android:layout_below="@id/selimut"
       android:layout_marginLeft="20dp"
       android:layout_marginRight="20dp"
       android:text="Cuci Seperai"
@@ -70,7 +75,8 @@
       /><Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="350dp"
+      android:layout_below="@id/seperai"
+      android:id="@+id/sepatu"
       android:layout_marginLeft="20dp"
       android:layout_marginRight="20dp"
       android:text="Cuci Sepatu"
@@ -78,7 +84,8 @@
       /><Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="420dp"
+      android:id="@+id/karpet"
+      android:layout_below="@id/sepatu"
       android:layout_marginLeft="20dp"
       android:layout_marginRight="20dp"
       android:text="Cuci Karpet"
@@ -86,7 +93,7 @@
       /><Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="490dp"
+      android:layout_below="@id/karpet"
       android:layout_marginLeft="20dp"
       android:layout_marginRight="20dp"
       android:text="Cuci Jas"
@@ -95,14 +102,4 @@
     
   </RelativeLayout>
 
-  <Button
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="650dp"
-      android:layout_marginLeft="20dp"
-      android:layout_marginRight="20dp"
-      android:text="Contrains Layout"
-      android:padding="15dp"
-      android:id="@+id/ganti"
-      />
 </RelativeLayout>
