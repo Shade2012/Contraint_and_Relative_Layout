@@ -23,16 +23,15 @@ public class MainActivity extends AppCompatActivity {
         kembali2 = findViewById(R.id.kembali);
         edit1 = findViewById(R.id.textAtas);
         edit2 = findViewById(R.id.textBorderGede);
-        String edittext1 = edit1.getText().toString();
-        String edittext2 = edit2.getText().toString();
-        pesan.setOnClickListener(new View.OnClickListener() {
 
+        pesan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(edittext1 != null && edittext2 != null){
-                    Toast.makeText(getApplicationContext(),"Pesanan sedang di proses " , Toast.LENGTH_SHORT).show();
-                }else {
+                if(edit1.getText().toString().trim().length() == 0 && edit2.getText().toString().trim().length() == 0){
                     Toast.makeText(getApplicationContext(),"Mohon Diisi" , Toast.LENGTH_SHORT).show();
+
+                }else {
+                    Toast.makeText(getApplicationContext(),"Pesanan sedang di proses " , Toast.LENGTH_SHORT).show();
                 }
 
             }
