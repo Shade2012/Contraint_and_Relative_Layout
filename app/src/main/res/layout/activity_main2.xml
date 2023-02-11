@@ -30,6 +30,7 @@
         android:gravity="center"
         android:id="@+id/judul"
         android:text="@string/example_bold"
+        android:textColor="@color/black"
         android:paddingTop="10dp"
         android:textSize="35dp" />
 
